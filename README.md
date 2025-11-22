@@ -1,18 +1,19 @@
-# bharatvaani
+# BharatVaani
 🇮🇳 BharatVaani – Hindi Cultural AI Assistant
 
 BharatVaani is an open-source multilingual cultural AI assistant designed to preserve and promote India’s cultural heritage by collecting user-generated stories, recipes, proverbs, festival traditions, and local wisdom in Hindi (primary) + English.
 
 This project was developed as part of the Viswam.ai – Summer of AI Internship 2025, aligned with the goals of Indic language AI, dataset creation, and open-source LLM adoption.
 
-🌍 Core Purpose
+# Core Purpose
 
 ✔ Make AI accessible in Indian languages
 ✔ Collect natural cultural corpus from users
 ✔ Encourage Indians to contribute to preserving heritage
 ✔ Support low-bandwidth accessibility
 
-✨ Features
+#Features
+
 Feature	Status
 Hindi + English bilingual conversation	✔
 Streamlit-based clean UI	✔
@@ -20,14 +21,17 @@ LangChain + Hugging Face open-source LLM	✔
 Corpus collection (text, image, document)	✔
 User feedback + rating storage	✔
 Privacy focused – no third-party data scraping	✔
-🧠 Tech Stack
+
+# Tech Stack
 Layer	Technology
 Frontend	Streamlit
 AI / Backend	LangChain + Hugging Face open-source model
 Model (default)	google/gemma-2b-it
 Deployment (planned)	Hugging Face Spaces
 Corpus Storage	Local structured dataset folders
-📂 Project Structure
+
+# Project Structure
+
 bharatvaani/
 │── app.py
 │── backend/
@@ -46,7 +50,7 @@ bharatvaani/
 │── CHANGELOG.md
 │── LICENSE
 
-🚀 Local Setup
+# Local Setup
 git clone https://github.com/Noorujoye/bharatvaani.git
 cd bharatvaani
 pip install -r requirements.txt
@@ -71,15 +75,15 @@ streamlit run app.py
 
  Add more Indic languages
 
-🤝 Contributions
+# Contributions
 
 This project is open-source and contributions are welcomed.
 See CONTRIBUTING.md for guidelines.
 
-📜 License
+# License
 
 This project is licensed under the MIT License.
 
-🌟 Acknowledgment
+# Acknowledgment
 
 This project is made possible thanks to open-source LLM initiatives, LangChain community, and Viswam.ai’s mission toward Indic AI innovation.
